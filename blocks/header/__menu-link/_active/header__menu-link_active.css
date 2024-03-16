@@ -1,0 +1,12 @@
+.header__menu-link_active {
+    background-color: #141414;
+    border: 1px solid #262626;
+    padding: 14px 24px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1440px) {
+    .header__menu-link_active {
+        padding: 12px 20px;
+    }
+}

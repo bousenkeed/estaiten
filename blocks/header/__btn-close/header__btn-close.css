@@ -1,0 +1,31 @@
+.header__btn-close {
+    height: 24px;
+    width: 24px;
+    border-radius: 75px;
+    background: rgba(255, 255, 255, 0.10);
+    position: absolute;
+    right: 32px;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+    .header__btn-close {
+        right: 32px;
+        top: 11px;
+    }
+}
+
+@media (max-width: 390px) {
+    .header__btn-close {
+        position: relative;
+        height: 18px;
+        width: 18px;
+        right:16px;
+        top: auto;
+    }
+}

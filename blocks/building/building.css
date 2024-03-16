@@ -1,0 +1,27 @@
+.building {
+    display: flex;
+    gap: 80px;
+    justify-content: flex-end;
+}
+
+@media (max-width: 1440px) {
+    .building {
+        gap: 60px;
+    }
+}
+
+@media (max-width: 770px) {
+    .building {
+        gap: 0;
+    }
+}
+
+@media (max-width: 390px) {
+    .building {
+        flex-direction: column-reverse;
+        gap: 56px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 40px;
+    }
+}

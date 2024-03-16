@@ -1,0 +1,18 @@
+.building__card-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0;
+}
+
+@media (max-width: 1440px) {
+    .building__card-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 390px) {
+    .building__card-title {
+        font-size: 24px;
+    }
+}

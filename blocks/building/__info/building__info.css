@@ -1,0 +1,24 @@
+.building__info {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    flex-basis: 758px;
+    padding-left: 162px;
+}
+
+@media (max-width: 1440px) {
+    .building__info {
+        padding-left: 80px;
+        gap: 60px;
+        flex-basis: 690px;
+    }
+}
+
+@media (max-width: 390px) {
+    .building__info {
+        flex-basis: 358px;
+        padding-left: 0;
+        gap: 40px;
+    }
+}

@@ -1,0 +1,20 @@
+.header__menu-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+@media (max-width: 770px) {
+    .header__menu-list {
+        display: none;
+    }
+}
+
+@media (max-width: 390px) {
+    .header__menu-list {
+        display: none;
+    }
+}

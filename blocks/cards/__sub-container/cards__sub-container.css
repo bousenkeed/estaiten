@@ -1,0 +1,26 @@
+.cards__sub-container {
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1440px) {
+    .cards__sub-container {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 770px) {
+    .cards__sub-container {
+        flex-direction:column;
+    }
+}
+
+@media (max-width: 390px) {
+    .cards__sub-container {
+        flex-direction:row;
+    }
+}

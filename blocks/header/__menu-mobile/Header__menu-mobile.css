@@ -1,0 +1,9 @@
+.header__menu-mobile{
+    display: none;
+}
+
+@media (max-width: 770px) {
+    .header__menu-mobile {
+        display: block;
+    }
+}

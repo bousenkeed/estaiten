@@ -1,0 +1,21 @@
+.default-btn {
+    display: flex;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+    .default-btn {
+        padding: 14px 20px;
+    }
+}
+
+@media (max-width: 390px) {
+    .default-btn {}
+}

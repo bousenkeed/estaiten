@@ -1,0 +1,19 @@
+.cards__arrow-img {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 20px;
+    right: 20px;
+}
+
+@media (max-width: 1440px) {
+    .cards__arrow-img {
+        width: 26px;
+        height: 26px;
+        right: 19px;
+    }
+}
+
+@media (max-width: 390px) {
+    .cards__arrow-img {}
+}

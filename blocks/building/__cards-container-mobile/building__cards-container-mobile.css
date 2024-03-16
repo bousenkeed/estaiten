@@ -1,0 +1,11 @@
+.building__cards-container-mobile {
+    display: none;
+}
+
+@media (max-width: 390px) {
+    .building__cards-container-mobile  {
+        gap: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+}

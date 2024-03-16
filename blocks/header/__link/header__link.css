@@ -1,0 +1,16 @@
+.header__link {
+    color: white;
+}
+
+@media (max-width: 1440px) {
+    .header__link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 390px) {
+    .header__link {
+        font-size: 12px;
+        margin-right: 27px;
+    }
+}

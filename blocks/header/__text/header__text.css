@@ -1,0 +1,17 @@
+.header__text {
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 1440px) {
+    .header__text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 390px) {
+    .header__text {
+        font-size: 12px;
+        margin-left: 16px;
+    }
+}

@@ -1,0 +1,28 @@
+.building__icon-img {
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 144px;
+}
+
+@media (max-width: 1440px) {
+    .building__icon-img {
+        max-width: 129px;
+        height: auto;
+        margin-left: -66px;
+    }
+}
+
+@media (max-width: 770px) {
+    .building__icon-img {
+        display: none;
+    }
+}
+
+@media (max-width: 390px) {
+    .building__icon-img {
+        display: block;
+        max-width: 117px;
+        margin-top: 229px;
+        margin-left: 0px;
+    }
+}

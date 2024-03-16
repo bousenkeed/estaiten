@@ -1,0 +1,9 @@
+.body {
+    font-family: 'Urbanist', Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+    background: #141414;
+    color: white;
+    line-height: 150%; 
+}

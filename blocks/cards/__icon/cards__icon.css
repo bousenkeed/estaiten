@@ -1,0 +1,15 @@
+.cards__icon {
+    max-width: 62px;
+}
+
+@media (max-width: 1440px) {
+    .cards__icon {
+        max-width: 44px;
+    }
+}
+
+@media (max-width: 390px) {
+    .cards__icon {
+        max-width: 36px;
+    }
+}

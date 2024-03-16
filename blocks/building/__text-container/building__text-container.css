@@ -1,0 +1,17 @@
+.building__text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media (max-width: 1440px) {
+    .building__text-container {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 390px) {
+    .building__text-container {
+        gap: 16px;
+    }
+}

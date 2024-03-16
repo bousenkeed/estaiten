@@ -1,0 +1,22 @@
+.building__bild-img {
+    background-image: url(../../../images/building_img.svg);
+    flex-basis: 920px;
+    height: 814px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 1440px) {
+    .building__bild-img {
+        max-width: 690px;
+        max-height: 622px;
+    }
+}
+
+@media (max-width: 390px) {
+    .building__bild-img {
+        flex-basis: 358px;
+        max-height: 302px;
+    }
+}

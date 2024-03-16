@@ -1,0 +1,35 @@
+.cards__card {
+    box-sizing: inherit;
+    display: flex;
+    height: 212px;
+    padding: 40px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    background: #1A1A1A;
+    width: 100%;
+    position: relative;
+}
+
+@media (max-width: 1440px) {
+    .cards__card {
+        height: 160px;
+        padding: 30px 16px;
+        justify-content: center;
+        gap: 16px;
+        border-radius: 10px;
+
+    }
+}
+
+@media (max-width: 390px) {
+    .cards__card {
+        box-sizing: border-box;
+        max-height: 144px;
+        padding: 20px 14px;
+        align-items: center;
+        gap: 14px;
+    }
+}

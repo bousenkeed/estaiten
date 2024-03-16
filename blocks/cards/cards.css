@@ -1,0 +1,32 @@
+.cards {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid #262626;
+    background: #141414;
+    box-shadow: 0px 0px 0px 10px #191919;
+    gap: 20px;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
+
+@media (max-width: 1440px) {
+    .cards {
+        padding: 10px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 40px;
+        margin-left: 16px;
+        margin-right: 16px;
+        border-radius: 12px;
+        box-shadow: 0px 0px 0px 4px #191919;
+    }
+}
